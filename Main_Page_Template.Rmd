@@ -1,0 +1,52 @@
+---
+title: "Main Page Template"
+author: "Qile Dai"
+date: "10/11/2020"
+output: 
+  rmarkdown::html_document:
+    theme: united
+    highlight: tango
+    toc: true
+    toc_depth: 6
+    toc_float: true
+    number_sections: true
+    code_folding: hide
+    fig_caption: true
+    #bibliography: bibliography.bib
+    #csl: biomed-central.csl
+---
+
+```{r setup, include=FALSE,warning=FALSE,message=FALSE}
+knitr::opts_chunk$set(echo = FALSE,eval=FALSE,cache=TRUE,warning=FALSE,message=FALSE,results='asis',cache.lazy = FALSE)
+knitr::opts_knit$set(eval.after = 'fig.cap',dev=c('png','postscript'))
+require(kableExtra)
+library(gdata)
+library(knitr)
+library(captioner)
+library(gridExtra)
+```
+
+A Brief summary of your project.
+
+# Introduction
+
+# Methods
+
+## Computational Analysis 
+
+**Some bold text to summarize your analysis flow.**
+
+### Step 1: 
+
+   + Direct To...:
+   
+     * Direct to a website:
+       - [To YangLab Website](https://yanglab-emory.github.io) 
+       
+     * Direct to other files(code/pptx/pdf...anything you want) from your github: 
+       - [Success!](RandomThings/Success.jpg)
+  
+### Step 2: 
+
+# Results
+   
